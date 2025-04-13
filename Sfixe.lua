@@ -1,13 +1,3 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
-]=]
-
--- Instances: 44 | Scripts: 10 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.Exe
@@ -96,7 +86,7 @@ G2L["a"]["BackgroundTransparency"] = 1;
 G2L["a"]["Size"] = UDim2.new(0, 200, 0, 50);
 G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a"]["Text"] = [[Sfixe v2.5]];
-G2L["a"]["Position"] = UDim2.new(-0.00158, 0, -0.1, 0);
+G2L["a"]["Position"] = UDim2.new(-0.02195, 0, -0.05, 0);
 
 
 -- StarterGui.Exe.Open.topbar.TextLabel
@@ -111,7 +101,7 @@ G2L["b"]["BackgroundTransparency"] = 1;
 G2L["b"]["Size"] = UDim2.new(0, 96, 0, 37);
 G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["Text"] = [[Lua]];
-G2L["b"]["Position"] = UDim2.new(0.20582, 0, 0.1, 0);
+G2L["b"]["Position"] = UDim2.new(0.1836, 0, 0.1, 0);
 
 
 -- StarterGui.Exe.Open.Draggable
@@ -150,7 +140,7 @@ G2L["10"] = Instance.new("LocalScript", G2L["e"]);
 G2L["11"] = Instance.new("ImageLabel", G2L["2"]);
 G2L["11"]["BorderSizePixel"] = 0;
 G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11"]["Image"] = [[http://www.roblox.com/asset/?id=78325449824408]];
+G2L["11"]["Image"] = [[http://www.roblox.com/asset/?id=102117880073770]];
 G2L["11"]["Size"] = UDim2.new(0, 35, 0, 34);
 G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["11"]["BackgroundTransparency"] = 1;
