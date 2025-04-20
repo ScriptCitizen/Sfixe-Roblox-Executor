@@ -1,5 +1,4 @@
 local G2L = {};
-local G2L = {};
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local MarketplaceService = game:GetService("MarketplaceService")
